@@ -68,3 +68,10 @@
     </li>
     <li><strong>Create a Database for osTicket:</strong>
         <pre><code>
+<h4>Step 2: Download and Extract osTicket</h4>
+<ol>
+    <li><strong>Download osTicket:</strong>
+        <pre><code>wget https://github.com/osTicket/osTicket/releases/download/v1.17.2/osTicket-v1.17.2.zip</code></pre>
+    </li>
+    <li><strong>Extract the Package:</strong>
+        <pre><code>sudo apt install unzip -y
