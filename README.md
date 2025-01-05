@@ -31,3 +31,23 @@
 <p>Log in to MySQL:</p>
 <pre><code>sudo mysql -u root -p</code></pre>
 
+<h2>Step 2: Download and Extract osTicket</h2>
+
+<h3>Download osTicket:</h3>
+<pre><code>wget https://github.com/osTicket/osTicket/releases/download/v1.17.2/osTicket-v1.17.2.zip</code></pre>
+
+<h3>Extract the Package:</h3>
+<pre><code>sudo apt install unzip -y
+
+<h3>Move osTicket Files to the Web Root:</h3>
+<pre><code>sudo mv upload /var/www/html/osticket</code></pre>
+
+<h2>Step 3: Configure File Permissions</h2>
+
+<h3>Set Permissions:</h3>
+<pre><code>sudo chown -R www-data:www-data /var/www/html/osticket
+
+<h3>Rename the Configuration File:</h3>
+<p>Navigate to the osTicket directory:</p>
+<pre><code>cd /var/www/html/osticket/</code></pre>
+
