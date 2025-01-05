@@ -1,11 +1,3 @@
-<hr>
-
-<h2>Prerequisites and Installation Instructions for osTicket</h2>
-
-<h3>Prerequisites</h3>
-<p>Ensure the following prerequisites are met before installing osTicket:</p>
-<ol>
-    <li><strong>Server Requirements</strong>
        <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +12,17 @@
     </p>
 </body>
 </html>
+
+
+<hr>
+
+<h2>Prerequisites and Installation Instructions for osTicket</h2>
+
+<h3>Prerequisites</h3>
+<p>Ensure the following prerequisites are met before installing osTicket:</p>
+<ol>
+    <li><strong>Server Requirements</strong>
+
         
         <ul>
             <li><strong>Operating System:</strong>
