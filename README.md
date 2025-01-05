@@ -75,3 +75,7 @@
     </li>
     <li><strong>Extract the Package:</strong>
         <pre><code>sudo apt install unzip -y
+<h4>Step 3: Configure File Permissions</h4>
+<ol>
+    <li><strong>Set Permissions:</strong>
+        <pre><code>sudo chown -R www-data:www-data /var/www/html/osticket
