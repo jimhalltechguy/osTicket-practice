@@ -83,3 +83,18 @@
 <ol>
     <li><strong>Create a Virtual Host Configuration:</strong>
         <pre><code>
+<h4>Step 5: Install osTicket</h4>
+<ol>
+    <li>Open your browser and navigate to:
+        <pre><code>http://yourdomain.com</code></pre>
+    </li>
+    <li>Follow the on-screen installer and provide the database details created earlier.</li>
+    <li>Delete or rename the <code>setup/</code> directory:
+        <pre><code>sudo rm -rf /var/www/html/osticket/setup</code></pre>
+    </li>
+</ol>
+
+<h4>Step 6: Secure the Installation</h4>
+<ol>
+    <li><strong>Enable HTTPS:</strong>
+        <pre><code>
