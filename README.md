@@ -10,6 +10,9 @@
     <p>
         In order to gain more hands-on skills with creating and servicing IT Help Desk tickets, I have installed and configured osTicket - an open-source (Linux Ubuntu) Help Desk ticketing software. Here is a detailed write-up of my experience with setting up, configuring, and using osTicket.
     </p>
+    <p>
+        I then created fake employees (users) in different fake departments and had them create tickets for different common IT issues, such as forgotten usernames and/or passwords, employee requests to be added to different user groups, etc.
+    </p>
 </body>
 </html>
 
