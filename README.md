@@ -35,8 +35,6 @@
 
 <h3>Download osTicket:</h3>
 <pre><code>wget https://github.com/osTicket/osTicket/releases/download/v1.17.2/osTicket-v1.17.2.zip</code></pre>
-
-<h3>Extract the Package:</h3>
 <pre><code>sudo apt install unzip -y
 
 <h3>Move osTicket Files to the Web Root:</h3>
