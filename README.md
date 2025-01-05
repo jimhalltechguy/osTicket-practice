@@ -83,51 +83,7 @@
 <ol>
     <li><strong>Create a Virtual Host Configuration:</strong>
         <pre><code>
-<h4>Step 5: Install osTicket</h4>
-<ol>
-    <li>Open your browser and navigate to:
-        <pre><code>http://yourdomain.com</code></pre>
-    </li>
-    <li>Follow the on-screen installer and provide the database details created earlier.</li>
-    <li>Delete or rename the <code>setup/</code> directory:
-        <pre><code>sudo rm -rf /var/www/html/osticket/setup</code></pre>
-    </li>
-</ol>
 
-<h4>Step 6: Secure the Installation</h4>
-<ol>
-    <li><strong>Enable HTTPS:</strong>
-        <pre><code>
-
-
-<hr>
-
-<h2>Post-Installation Set-Up</h2>
-<p>Here are step-by-step instructions for post-installation configuration of osTicket to ensure your system is operational and optimized:</p>
-<ol>
-    <li><strong>Log in to the Admin Panel:</strong>
-        <ul>
-            <li>Navigate to the osTicket URL (e.g., <code>http://yourdomain.com/scp</code>).</li>
-            <li>Enter the admin credentials you set during installation.</li>
-        </ul>
-    </li>
-    <li><strong>Set Up System Preferences:</strong>
-        <ul>
-            <li>Navigate to: Admin Panel > Settings > System.</li>
-            <li>Configure helpdesk details, default email, and timezone.</li>
-        </ul>
-    </li>
-    <li><strong>Configure Email Settings:</strong>
-        <ul>
-            <li>Set up SMTP and IMAP/POP3 for email sending and fetching.</li>
-        </ul>
-    </li>
-    <li><strong>Customize Ticket Settings:</strong>
-        <ul>
-            <li>Adjust ticket numbering, auto-responses, and SLA settings.</li>
-        </ul>
-    </li>
-</ol>
 
 <hr>
 
