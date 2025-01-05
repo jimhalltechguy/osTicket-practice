@@ -79,3 +79,7 @@
 <ol>
     <li><strong>Set Permissions:</strong>
         <pre><code>sudo chown -R www-data:www-data /var/www/html/osticket
+<h4>Step 4: Configure Apache</h4>
+<ol>
+    <li><strong>Create a Virtual Host Configuration:</strong>
+        <pre><code>
