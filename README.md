@@ -98,3 +98,47 @@
 <ol>
     <li><strong>Enable HTTPS:</strong>
         <pre><code>
+
+
+<hr>
+
+<h2>Post-Installation Set-Up</h2>
+<p>Here are step-by-step instructions for post-installation configuration of osTicket to ensure your system is operational and optimized:</p>
+<ol>
+    <li><strong>Log in to the Admin Panel:</strong>
+        <ul>
+            <li>Navigate to the osTicket URL (e.g., <code>http://yourdomain.com/scp</code>).</li>
+            <li>Enter the admin credentials you set during installation.</li>
+        </ul>
+    </li>
+    <li><strong>Set Up System Preferences:</strong>
+        <ul>
+            <li>Navigate to: Admin Panel > Settings > System.</li>
+            <li>Configure helpdesk details, default email, and timezone.</li>
+        </ul>
+    </li>
+    <li><strong>Configure Email Settings:</strong>
+        <ul>
+            <li>Set up SMTP and IMAP/POP3 for email sending and fetching.</li>
+        </ul>
+    </li>
+    <li><strong>Customize Ticket Settings:</strong>
+        <ul>
+            <li>Adjust ticket numbering, auto-responses, and SLA settings.</li>
+        </ul>
+    </li>
+</ol>
+
+<hr>
+
+<h2>Ticket Lifecycle Examples</h2>
+<p>Here are examples of ticket lifecycles in osTicket, demonstrating how a ticket moves from creation to resolution:</p>
+<ol>
+    <li><strong>IT Support Request:</strong> A user submits a ticket for a VPN issue, assigned to IT Support, resolved, and automatically closed after inactivity.</li>
+    <li><strong>Customer Service Inquiry:</strong> A customer sends a refund inquiry, assigned to Billing, resolved, and followed up with a confirmation.</li>
+    <li><strong>Facility Maintenance Request:</strong> An employee reports a broken air conditioner, routed to Facilities, resolved, and closed after completion.</li>
+    <li><strong>Software Bug Report:</strong> A user reports a bug, assigned to Development, resolved by deploying a fix, and verified before closure.</li>
+    <li><strong>Priority Escalation:</strong> A system outage ticket marked urgent, escalated to IT Operations, resolved collaboratively, and monitored post-resolution.</li>
+</ol>
+
+<p>This detailed guide ensures a comprehensive understanding of setting up, configuring, and using osTicket for effective help desk ticket management.</p>
