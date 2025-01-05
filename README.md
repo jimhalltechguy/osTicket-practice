@@ -84,17 +84,41 @@
     <li><strong>Create a Virtual Host Configuration:</strong>
         <pre><code>
 
-
-<hr>
-
-<h2>Ticket Lifecycle Examples</h2>
-<p>Here are examples of ticket lifecycles in osTicket, demonstrating how a ticket moves from creation to resolution:</p>
-<ol>
-    <li><strong>IT Support Request:</strong> A user submits a ticket for a VPN issue, assigned to IT Support, resolved, and automatically closed after inactivity.</li>
-    <li><strong>Customer Service Inquiry:</strong> A customer sends a refund inquiry, assigned to Billing, resolved, and followed up with a confirmation.</li>
-    <li><strong>Facility Maintenance Request:</strong> An employee reports a broken air conditioner, routed to Facilities, resolved, and closed after completion.</li>
-    <li><strong>Software Bug Report:</strong> A user reports a bug, assigned to Development, resolved by deploying a fix, and verified before closure.</li>
-    <li><strong>Priority Escalation:</strong> A system outage ticket marked urgent, escalated to IT Operations, resolved collaboratively, and monitored post-resolution.</li>
-</ol>
-
-<p>This detailed guide ensures a comprehensive understanding of setting up, configuring, and using osTicket for effective help desk ticket management.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation Instructions</title>
+</head>
+<body>
+    <h1>Installation Instructions</h1>
+    
+    <h2>Step 1: Prepare the Server</h2>
+    
+    <h3>Update the System:</h3>
+    <pre><code>sudo apt update && sudo apt upgrade -y</code></pre>
+    
+    <h3>Install Apache, PHP, and MySQL:</h3>
+    <pre><code>sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql -y</code></pre>
+    
+    <h3>Install Required PHP Extensions:</h3>
+    <pre><code>sudo apt install php-mbstring php-intl php-xml php-imap php-gd php-json php-gettext php-apcu -y</code></pre>
+    
+    <h3>Secure MySQL: Run the secure installation wizard:</h3>
+    <pre><code>sudo mysql_secure_installation</code></pre>
+    
+    <h3>Create a Database for osTicket:</h3>
+    <p>Log in to MySQL:</p>
+    <pre><code>sudo mysql -u root -p</code></pre>
+    
+    <p>Run the following commands to create a database and user:</p>
+    <pre><code>
+CREATE DATABASE osticket_db;
+CREATE USER 'osticket_user'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON osticket_db.* TO 'osticket_user'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+    </code></pre>
+</body>
+</html>
